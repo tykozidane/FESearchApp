@@ -5,7 +5,10 @@
     background: #1900ff;
     box-shadow: 0px 4px 4px rgba(0, 225, 255, 0.25);
 }
-
+h1{
+    color: #ffff;
+    text-shadow: 0px 4px 4px black;
+}
 .navbar-nav {
     width: 100%;
 }

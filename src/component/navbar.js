@@ -55,13 +55,7 @@ function Navbar() {
                                 </div>
                             </form>
                         </li>
-                        <li>
-                                     <Link to={`/kategoriin`}>
-                                    <button className="btn-search">
-                                    <b>Kategori</b>
-                                    </button>
-                                    </Link>
-                        </li>   
+                        
                     </ul>
                 </div>
             </nav>

@@ -32,27 +32,7 @@ function Navbarkat() {
                                 <h1>SearchApp</h1>
                             </Link>
                         </li>
-                        <li className="nav-item " style = {{marginLeft : "300px"}}>
-                                     <Link to={`/kategori/Windows`}>
-                                    <button type="submit" className="btn-search">
-                                    <b>Windows</b>
-                                    </button>
-                                    </Link>
-                        </li>     
-                        <li className="nav-item " style = {{marginLeft : "300px"}}>
-                                     <Link to={`/kategori/Games`}>
-                                    <button type="submit" className="btn-search">
-                                    <b>Games</b>
-                                    </button>
-                                    </Link>
-                        </li>      
-                        <li className="nav-item " style = {{marginLeft : "300px"}}>
-                                     <Link to={`/kategori/Android`}>
-                                    <button type="submit" className="btn-search">
-                                    <b>Android</b>
-                                    </button>
-                                    </Link>
-                        </li>   
+                        
                     </ul>
                 </div>
             </nav>

@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HomePage from '../src/page/homepage'
-import Kategori from '../src/page/kategori'
+import Detail from './page/detail'
 
 function App() {
   return (
@@ -10,11 +10,9 @@ function App() {
     <Switch>
     <Route path="/" exact component={HomePage}>
       </Route>
-      <Route path="/kategoriin" exact component={Kategori}>
-      </Route>
     <Route path="/:search" exact component={(props) => <HomePage {...props} />}>
       </Route>
-      <Route path="/kategori/:search" exact component={(props) => <Kategori {...props} />}>
+      <Route path="/detail/:id/:plat" exact component={(props) => <Detail {...props} />}>
       </Route>
     </Switch>
   </Router>
